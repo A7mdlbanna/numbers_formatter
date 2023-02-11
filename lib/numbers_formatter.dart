@@ -4,11 +4,11 @@ import 'package:flutter/services.dart';
 
 ///
 /// ```
-///   PhoneFormatter(sample: 'xxxx-xxxx-xxxx-xxxx', seperator: ' ') // 1234 1234 1234 1234
+///   NumbersFormatter(sample: 'xxxx-xxxx-xxxx-xxxx', seperator: ' ') // 1234 1234 1234 1234
 /// ```
 ///
 
-class PhoneFormatter extends TextInputFormatter {
+class NumbersFormatter extends TextInputFormatter {
 
   /// sample of the formatted number you want separated by '-' ex: xxxx-xxxx-xxxx-xxxx
   final String sample;
@@ -16,7 +16,7 @@ class PhoneFormatter extends TextInputFormatter {
   /// pattern that will replace the '-'
   final String separator;
 
-  PhoneFormatter({
+  NumbersFormatter({
     required this.sample,
     required this.separator
   });
