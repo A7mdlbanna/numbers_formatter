@@ -1,6 +1,6 @@
 name: numbers_formatter
 description: A new Flutter Package for formatting numbers as you type.
-version: 0.0.1
+version: 0.0.2
 homepage:
 
 environment:
