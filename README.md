@@ -26,7 +26,9 @@ Start by adding the package to your `pubspec.yaml`.
 
 or use the following command
 
-`flutter pub add numbers_formatter --git-url=https://github.com/A7mdlbanna/numbers_formatter.git`
+```
+flutter pub add numbers_formatter --git-url=https://github.com/A7mdlbanna/numbers_formatter.git
+```
 
 ## Usage
 
